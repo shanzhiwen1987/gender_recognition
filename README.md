@@ -1,4 +1,4 @@
-实验目的：pyorch 联合身体和脸部进行性别判断。
+实验目的：pytorch 联合身体和脸部进行性别判断。
 
 配置：   python3.6.5
 	 pytorch
@@ -13,7 +13,7 @@
 2.下载权值文件。需下载两个权值文件。一个名为ckpt_body.pth ,下载地址： https://pan.baidu.com/s/1l40oOJkx0ka--cWBy4sILA  。
    一个名为ckpt_face.pth,下载地址： https://pan.baidu.com/s/15Vni4Y9E_kzQv878qsYEEg  。下载之后，都放入models文件夹下。
    
-3.运行gender_recognize.py.在输出可以看到叛断错误的图片名，判断准确率。
+3.运行gender_recognize.py.在输出可以看到叛断错误的图片名，以及最后的判断准确率。
  
 
 	
