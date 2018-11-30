@@ -1,6 +1,4 @@
 from torch import nn
-
-
 from torchvision import models
 import torch
 from torch import optim
@@ -40,13 +38,11 @@ model_face=model('./models/ckpt_face.pth')
 
 gpus=[0]
 counter=0
-with open('test_img.txt', 'r') as f:
+with open('images.txt', 'r') as f:
     lines = f.readlines()
 
     for line in lines:
         item = line.strip().split(' ')
-
-
         #print('Processing image: ' + item[0])
         img_name=item[0]
         img_label=item[1]
